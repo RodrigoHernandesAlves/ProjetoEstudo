@@ -21,3 +21,17 @@
     text-align: center;
     color: #FF0000;
 }
+
+.digite {
+    text-align: left;
+    margin: 13px;
+}
+
+.botoes-items {
+    display: inline-block;
+}
+
+.botoes {
+    text-align: left;
+    margin: 13px;
+}
