@@ -1,3 +1,14 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    color: rgba(0, 0, 0, 1);
+}
+
+nav#contratado {
+    border: 1px solid #606060;
+}
+
 .titulo {
     font-size: 3rem;
     /*tamanho da fonte do titulo*/
@@ -19,12 +30,20 @@
 
 .informacao {
     text-align: center;
-    color: #FF0000;
+    color: #0000FF;
 }
 
 .digite {
     text-align: left;
     margin: 13px;
+}
+
+section#arquivos {
+    display: block;
+    width: 600px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
 }
 
 .botoes-items {
@@ -39,4 +58,13 @@
 .enviar {
     text-align: left;
     margin: 13px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }

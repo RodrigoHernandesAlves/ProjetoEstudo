@@ -1,109 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
+    <meta charset="UTF-8" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title> T.I Loucos</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 
 </head>
 
-<body background="img/1.jpg" bgproperties="fixed">
-    </background>
+
+<body>
+
+    <nav id="contratado">
+        <h1 class="titulo fonte-grande sublinhado">Bem vindo a T.I loucos !</h1>
+
+
+        <h2 class="informacao">
+
+            <p>Abaixo estão os campos listados de acordo com o nome do documento para ser anexado sendo ele fotografado de forma nitida ou digitalizado,apos anexar todos os documentos da forma correta clicar no botão enviar.</p>
+
+        </h2>
+
+    </nav>
+
+    <section id="arquivos">
+        <br>
+        <h3>Coloque o seu nome completo no campo abaixo </h3>
+        </br>
 
 
 
-    <h1 class="titulo fonte-grande sublinhado">Bem vindo a T.I loucos !</h1>
-
-    <h2 class="informacao">
-
-        <p>Abaixo estão os campos listados de acordo com o nome do documento para ser anexado sendo ele fotografado de forma nitida ou digitalizado,apos anexar todos os documentos da forma correta clicar no botão enviar.</p>
-
-    </h2>
-
-
-    <br>
-    <h3>Coloque o seu nome completo no campo abaixo </h3>
-    </br>
+        <div class="digite">
+            <form method="POST" action="envio_dados.html">
+                <input type="text" name="nome" placeholder="digite seu Nome aqui">
+            </form>
+        </div>
 
 
 
-    <div class="digite">
-        <form method="POST" action="envio_dados.html">
-            <input type="text" name="nome" placeholder="digite seu Nome aqui">
-        </form>
-    </div>
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Carteira de trabalho" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
 
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Carteira de trabalho" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="Carteira de trabalho" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Certificado de escolaridade" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Certidão de casamento se for casado" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="Carteira de trabalho" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Certificado de cursos realizados" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="Certificado de escolaridade" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Comprovante de endereço" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="Certidão de casamento se for casado" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="CPF" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="Certificado de cursos realizados" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Numero do PIS" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="Comprovante de endereço" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="RG" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="CPF" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+        <div class="enviar">
+            <form method="post" action="rodrigohernandesalves@gmail.com">
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="Numero do PIS" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
+    </section>
 
-    <div class="botoes">
-        <div class="botoes-itens"></div>
-        <input type="button" id="loadFileXml" value="RG" onclick="document.getElementById('file').click();" />
-        <input type="file" style="display:none;" id="file" name="file" /></br>
-    </div>
-
-    <div class="enviar">
-        <form method="post" action="rodrigohernandesalves@gmail.com">
-            <input type="submit" value="Enviar" />
-        </form>
-    </div>
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-</body>
+    <footer id="rodape">
 
-<script src="js/rh.js"></script>
+        <p>Copyright &copy; 2020 - by Rodrigo Hernandes Alves</br>
+            <a href="http://www.linkedin.com/in/rodrigoahernandes" target="_blank">linkedin</a> |
+            <a href="https://github.com/RodrigoHernandesAlves/" target="_blank">github</a></p>
+
+    </footer>
+
+</body>
 
 </html>
