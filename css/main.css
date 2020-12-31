@@ -51,7 +51,7 @@ section#arquivos {
     float: auto;
     border-right: 1px solid #606060;
     padding-right: 10px;
-    background-color: white;
+    background-color: rgb(135, 135, 150);
 }
 
 .botoes-itens {
@@ -69,17 +69,20 @@ section#arquivos {
 }
 
 section#dowload {
-    text-align: right;
-    font-size: 20px;
-    margin: 10px;
-    line-height: 1px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 30em
 }
 
 h3#baixar {
     text-align: right;
     font-size: 20px;
-    margin: 10px;
+    margin: 10px 10px;
     line-height: 1px 1px 1px 1px;
+}
+
+div#docempresa {
+    margin-right: 100px;
 }
 
 footer#rodape {
