@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
     font-family: Arial, sans-serif;
-    background-color: grey;
+    background-color: white;
     color: rgba(0, 0, 0, 1);
     margin: 10px 10px 10px 10px;
     border: 1px solid;
@@ -32,7 +32,7 @@ nav#contratado {
 
 .informacao {
     text-align: center;
-    color: #0000FF;
+    color: gray;
 }
 
 .digite {
@@ -47,7 +47,7 @@ nav#contratado {
 
 section#arquivos {
     display: block;
-    width: 600px;
+    width: 650px;
     float: auto;
     border-right: 1px solid #606060;
     padding-right: 10px;
@@ -68,8 +68,10 @@ section#arquivos {
     margin: 13px;
 }
 
-div#docempresa {
-    margin-right: 100px;
+div#docmpresa {
+    text-align: right;
+    margin: 10px;
+    height: 10px;
 }
 
 footer#rodape {
