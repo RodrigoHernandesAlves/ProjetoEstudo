@@ -60,6 +60,12 @@
 
         <div class="botoes">
             <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Certidão de nascimento" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
+
+        <div class="botoes">
+            <div class="botoes-itens"></div>
             <input type="button" id="loadFileXml" value="Certificado de cursos realizados" onclick="document.getElementById('file').click();" />
             <input type="file" style="display:none;" id="file" name="file" /></br>
         </div>
@@ -102,6 +108,14 @@
                 </a></button>
         </div>
 
+        <h4 class="enviar1">Anexar documentos preenchidos</h4>
+
+        <div class="botoes">
+            <div class="botoes-itens"></div>
+            <input type="button" id="loadFileXml" value="Anexar" onclick="document.getElementById('file').click();" />
+            <input type="file" style="display:none;" id="file" name="file" /></br>
+        </div>
+
         <h4 class="assinados">Enviar arquivos que foram baixados e devidamente assinados no botão abaixo</h4>
 
         <div class="enviar1">
@@ -109,6 +123,8 @@
                 <input type="submit" value="Enviar" />
             </form>
         </div>
+
+
 
     </section>
 
